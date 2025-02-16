@@ -1,6 +1,6 @@
 # MOF-IL Database
 # Overview
-The MOF-IL database is composed of 510 entries of supercapcitors based on different metal-organic framework (MOF) electrodes and ionic liquid electrolyte. Each entrie contains pore structure descriptors of the MOF electrode and corresponding electrochemical performance derived from constant-potential molecular dynamics.
+The MOF-IL database is composed of 510 entries of supercapcitors based on different metal-organic framework (MOF) electrodes and ionic liquid electrolyte. Each entrie contains pore structure descriptors of the MOF electrode and corresponding electrochemical performance derived from constant-potential molecular dynamics. The MOF structures are taken from the [QMOF database](https://github.com/Andrew-S-Rosen/QMOF).
 # Citation
 If you use the MOF-IL database, please cite this publication:
 # Licensing
