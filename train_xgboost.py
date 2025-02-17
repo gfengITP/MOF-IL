@@ -13,9 +13,6 @@ data = pd.read_csv(file_path)
 X = data[['PLD', 'LCD', 'SSA', 'porosity', 'density', 'pore_dimension']]
 y = data['capa_mass'] # or 'capa_volume' '095_current' For volumetric capcitance, separate training and testing should be conducted for materials with 1D and 3D pores 
 
-testname = 'capa_mass.csv'
-trainname = 'capa_mass_train.csv'
-
 label_encoder = LabelEncoder()
 X['pore_dimension'] = label_encoder.fit_transform(X['pore_dimension'])
 
